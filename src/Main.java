@@ -12,5 +12,17 @@ public class Main {
         car.Start();
         car.Move();
         car.Stop();
+
+        enum days{
+            Luni,
+            Marti,
+            Joi,
+            Sambata,
+            Duminica
+        }
+
+        for(days d: days.values()){
+            System.out.println(d);
+        }
     }
 }
